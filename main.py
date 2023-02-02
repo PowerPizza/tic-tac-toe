@@ -5,7 +5,7 @@ from flask import session
 app = Flask(__name__)
 app.secret_key = "hmmm"
 runningGames = {}
-# operator
+# operator master
 @app.route("/")
 def home():
     print("sessions : ", session)
