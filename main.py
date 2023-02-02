@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect
 import json, random
 from flask import session
 
-# just for test
 app = Flask(__name__)
 app.secret_key = "your secret key"
 runningGames = {}
