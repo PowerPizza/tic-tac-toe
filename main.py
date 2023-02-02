@@ -1,11 +1,11 @@
 from flask import Flask, render_template, request, redirect
 import json, random
 from flask import session
-# op (changed)
+
 app = Flask(__name__)
 app.secret_key = "hmmm"
 runningGames = {}
-# operator master
+
 @app.route("/")
 def home():
     print("sessions : ", session)
