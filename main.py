@@ -3,7 +3,7 @@ import json, random
 from flask import session
 
 app = Flask(__name__)
-app.secret_key = "hmmm"
+app.secret_key = "your secret key"
 runningGames = {}
 
 @app.route("/")
