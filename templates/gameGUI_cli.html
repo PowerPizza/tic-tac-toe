@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUI</title>
+    <link rel="stylesheet" href="../static/gameGUI.css">
+</head>
+<body>
+    <div class="gameInfo">
+        <h1 class="lable1">PLAYER1 VS PLAYER2</h1>
+        <span class="lable2">Current Chance : ---</span>
+        <span class="lable3">Choice : ---</span>
+    </div>
+    <div class="playArea"></div>
+
+    <div class="won">
+        <div class="wonInfo">
+            <h1 class="gameOverHeading">GAME OVER</h1>
+            <h2 class="message">MESSAGE</h2>
+            <div class="view_game_canvas"></div>
+            <br><button class="replay_btn" onclick="onReplayGame()">REPLAY ⟳</button>
+        </div>
+    </div>
+    
+    <script src="../static/functions.js"></script>
+    <script src="../static/gameGUI_cli.js"></script>
+</body>
+</html>
